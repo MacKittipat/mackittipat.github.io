@@ -27,155 +27,34 @@ app.controller('ResumeController', function () {
     };
     this.abilities = [
         {
-            category: 'PROGRAMMING LANGUAGE',
+            category: 'Programming Language',
             skills: [
-                {
-                    name: 'HTML',
-                    level: level.veryGood.value,
-                    levelText: level.veryGood.name
-                },
-                {
-                    name: 'CSS',
-                    level: level.veryGood.value,
-                    levelText: level.veryGood.name
-                },
-                {
-                    name: 'Java',
-                    level: level.veryGood.value,
-                    levelText: level.veryGood.name
-                },
-                {
-                    name: 'JavaScript',
-                    level: level.veryGood.value,
-                    levelText: level.veryGood.name
-                },
-                {
-                    name: 'PHP',
-                    level: level.good.value,
-                    levelText: level.good.name
-                },
-                {
-                    name: 'Ruby',
-                    level: level.fair.value,
-                    levelText: level.fair.name
-                },
+                'Java',
+                'JavaScript',
+                'HTML',
+                'CSS',
+                'SQL'
             ]
         },
         {
-            category: 'FRAMEWORK / PLATFORM / LIBRARY',
+            category: 'Framework',
             skills: [
-                {
-                    name: 'Spring Framework',
-                    level: level.veryGood.value,
-                    levelText: level.veryGood.name
-                },
-                {
-                    name: 'Node.js',
-                    level: level.good.value,
-                    levelText: level.good.name
-                },
-                {
-                    name: 'jQuery',
-                    level: level.good.value,
-                    levelText: level.good.name
-                },
-                {
-                    name: 'Express.js',
-                    level: level.fair.value,
-                    levelText: level.fair.name
-                },
-                {
-                    name: 'AngularJS',
-                    level: level.fair.value,
-                    levelText: level.fair.name
-                },
-                {
-                    name: 'Android',
-                    level: level.fair.value,
-                    levelText: level.fair.name
-                },
+                'Spring Framework',
+                'Node.js',
+                'Express.js',
+                'jQuery',
+                'Bootstrap'
             ]
         },
         {
-            category: 'SOFTWARE',
+            category: 'Database',
             skills: [
-                {
-                    name: 'IntelliJ IDEA',
-                    level: level.veryGood.value,
-                    levelText: level.veryGood.name
-                },
-                {
-                    name: 'Netbeans',
-                    level: level.veryGood.value,
-                    levelText: level.veryGood.name
-                },
-                {
-                    name: 'Git',
-                    level: level.good.value,
-                    levelText: level.good.name
-                },
-                {
-                    name: 'Maven',
-                    level: level.good.value,
-                    levelText: level.good.name
-                },
-                {
-                    name: 'MySQL',
-                    level: level.good.value,
-                    levelText: level.good.name
-                },
-                {
-                    name: 'MongoDB',
-                    level: level.fair.value,
-                    levelText: level.fair.name
-                },
-                {
-                    name: 'Hadoop',
-                    level: level.fair.value,
-                    levelText: level.fair.name
-                },
+                'MySQL',
+                'MongoDB',
+                'Apache Hadoop',
+                'Apache Cassandra'
             ]
-        },
-        {
-            category: 'OPERATING SYSTEM',
-            skills: [
-                {
-                    name: 'Linux (Ubuntu)',
-                    level: level.veryGood.value,
-                    levelText: level.veryGood.name
-                },
-                {
-                    name: 'Microsoft Windows',
-                    level: level.veryGood.value,
-                    levelText: level.veryGood.name
-                },
-            ]
-        },
-        {
-            category: 'ENGLISH LANGUAGE',
-            skills: [
-                {
-                    name: 'Listening',
-                    level: level.veryGood.value,
-                    levelText: level.veryGood.name
-                },
-                {
-                    name: 'Writing',
-                    level: level.veryGood.value,
-                    levelText: level.veryGood.name
-                },
-                {
-                    name: 'Speaking',
-                    level: level.good.value,
-                    levelText: level.good.name
-                },
-                {
-                    name: 'Reading',
-                    level: level.good.value,
-                    levelText: level.good.name
-                },
-            ]
-        },
+        }
     ];
     this.workExps = [
         {

@@ -5,11 +5,77 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link href="assets/lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+        <link href="assets/css/style.css" rel="stylesheet">
         <script src="assets/lib/angularjs/angular.min.js"></script>
         <script src="controller/index.js"></script>
         <title>{{resume.name}} {{resume.lastName}}</title>
     </head>
     <body ng-controller="ResumeController as resume">
-    {{resume.name}} {{resume.lastName}}
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <img class="img-circle center-block" src="https://avatars0.githubusercontent.com/u/1029736?v=3&s=460" style="max-width: 150px;" />
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <h1 class="text-header text-center">{{resume.name}} {{resume.lastName}}</h1>
+                    <div class="col-md-12">
+                        <div class="text-center">
+                            <span class="glyphicon glyphicon-envelope" aria-hidden="true"></span>
+                            {{resume.contact.email}}
+                            &nbsp;&nbsp;&nbsp;
+                            <span class="glyphicon glyphicon-earphone" aria-hidden="true"></span>
+                            {{resume.contact.mobilePhone}}
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12 box-topic">
+                    About Me
+                </div>
+                <div class="col-md-12">
+                    <p>
+                        I am 27 years old software developer base in Bangkok, Thailand.
+                    </p>
+                    <p>
+                    I'm enthusiastic and passionate about software development.
+                    I love programming and I like to learn new technology.
+                    </p>
+                    <p>
+                    I am currently studying Big Data and Data Science from MOOC (Massive open online course) such as Coursera, Udacity and edX
+                    </p>
+                    <p>
+                    You can see my projects at <a href="https://github.com/MacKittipat?tab=repositories">https://github.com/MacKittipat?tab=repositories</a>
+                    </p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12 box-topic">
+                    Skills
+                </div>
+                <div class="col-md-12 box-sub-topic">
+                    <strong>{{resume.abilities[0].category}}</strong>
+                </div>
+                <div>
+                    <div ng-repeat="skill in resume.abilities[0].skills" class="col-md-3">
+                        {{skill}}
+                    </div>
+                </div>
+                <div class="col-md-12 box-sub-topic">
+                    <strong>{{resume.abilities[1].category}}</strong>
+                </div>
+                <div ng-repeat="skill in resume.abilities[1].skills" class="col-md-3">
+                    {{skill}}
+                </div>
+                <div class="col-md-12 box-sub-topic">
+                    <strong>{{resume.abilities[2].category}}</strong>
+                </div>
+                <div ng-repeat="skill in resume.abilities[2].skills" class="col-md-3">
+                    {{skill}}
+                </div>
+            </div>
+        </div>
     </body>
 </html>
