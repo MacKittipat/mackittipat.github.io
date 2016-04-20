@@ -54,14 +54,23 @@ app.controller('ResumeController', function () {
                 'Apache Hadoop',
                 'Apache Cassandra'
             ]
+        },
+        {
+            category: 'OS / Tools',
+            skills: [
+                'Ubuntu',
+                'Windows',
+                'Git',
+                'Maven'
+            ]
         }
     ];
     this.workExps = [
         {
-            dateTime: 'April 2009 - January 2011',
-            company: 'Freelance Programmer',
-            position: 'Freelance Programmer',
-            detail: 'Develop and maintain web application for clients'
+            dateTime: 'August 2013 - Present',
+            company: 'ABC Tech (Thailand)',
+            position: 'System Developer',
+            detail: 'Develop and maintain web application for online newspaper in Norway.'
         },
         {
             dateTime: 'April 2010 - May 2010',
@@ -70,16 +79,10 @@ app.controller('ResumeController', function () {
             detail: 'Develop and integrate web analytic to website'
         },
         {
-            dateTime: 'April 2011 - August 2013',
-            company: 'ABC Tech (Thailand)',
-            position: 'Junior System Developer',
-            detail: 'Develop and maintain web application for online newspaper in Norway.'
-        },
-        {
-            dateTime: 'August 2013 - Present',
-            company: 'ABC Tech (Thailand)',
-            position: 'System Developer',
-            detail: 'Develop and maintain web application for online newspaper in Norway.'
-        },
+            dateTime: 'April 2009 - January 2011',
+            company: 'Freelance Programmer',
+            position: 'Freelance Programmer',
+            detail: 'Develop and maintain web application for clients'
+        }
     ];
 });
