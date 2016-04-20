@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="myResume">
+    <head>
+        <meta charset="UTF-8">
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.5/angular.min.js"></script>
+        <script src="controller/index.js"></script>
+        <title>{{resume.name}} {{resume.lastName}}</title>
+    </head>
+    <body ng-controller="ResumeController as resume">
+    {{resume.name}} {{resume.lastName}}
+    </body>
+</html>
