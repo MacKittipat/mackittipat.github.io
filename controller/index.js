@@ -33,7 +33,8 @@ app.controller('ResumeController', function () {
                 'MySQL',
                 'MongoDB',
                 'Apache Hadoop',
-                'Apache Cassandra'
+                'Apache Cassandra',
+                'Elasticsearch'
             ]
         },
         {
