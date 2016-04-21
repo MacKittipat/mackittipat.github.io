@@ -21,3 +21,6 @@ body {
     margin-bottom: 10px;
     margin-top: 10px;
 }
+.list-topic {
+    border-left: 4px solid #adadad;
+}
