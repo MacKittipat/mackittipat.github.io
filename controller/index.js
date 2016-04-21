@@ -45,6 +45,14 @@ app.controller('ResumeController', function () {
                 'Git',
                 'Maven'
             ]
+        },
+        {
+            category: 'Others',
+            skills: [
+                'Agile/Scrum',
+                'Unit Test',
+                'REST & SOAP service'
+            ]
         }
     ];
     this.certificates = [
