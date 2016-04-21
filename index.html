@@ -5,7 +5,6 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link href='https://fonts.googleapis.com/css?family=Lora:400,400italic,700,700italic' rel='stylesheet' type='text/css'>
-        <link href="https://necolas.github.io/normalize.css/4.1.1/normalize.css" rel="stylesheet">
         <link href="assets/lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
         <link href="assets/css/style.css" rel="stylesheet">
         <script src="assets/lib/angularjs/angular.min.js"></script>
@@ -164,6 +163,18 @@
                     <div>
                         Develop and maintain web application for clients
                     </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12 box-topic">
+                    Certificate
+                </div>
+                <div class="col-md-12">
+                    <ul>
+                        <li ng-repeat="certificate in resume.certificates">
+                            <a href="{{certificate.url}}">{{certificate.name}}</a>
+                        </li>
+                    </ul>
                 </div>
             </div>
         </div>

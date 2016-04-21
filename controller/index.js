@@ -1,22 +1,3 @@
-var level = {
-    excellent: {
-        name: 'EXCELLENT',
-        value: 100
-    },
-    veryGood: {
-        name: 'VERY GOOD',
-        value: 75
-    },
-    good: {
-        name: 'GOOD',
-        value: 50
-    },
-    fair: {
-        name: 'FAIR',
-        value: 25
-    }
-}
-
 var app = angular.module('myResume', []);
 app.controller('ResumeController', function () {
     this.name = 'Kittipat';
@@ -65,24 +46,22 @@ app.controller('ResumeController', function () {
             ]
         }
     ];
-    this.workExps = [
+    this.certificates = [
         {
-            dateTime: 'August 2013 - Present',
-            company: 'ABC Tech (Thailand)',
-            position: 'System Developer',
-            detail: 'Develop and maintain web application for online newspaper in Norway.'
+            'name' : 'MongoDB for DBAs',
+            'url' : 'https://s3.amazonaws.com/edu-cert.10gen.com/downloads/e7f71c444be848bcbd536136cf2f0318/Certificate.pdf'
         },
         {
-            dateTime: 'April 2010 - May 2010',
-            company: 'BEAM Enterprise',
-            position: 'Web Application Developer (Internship)',
-            detail: 'Develop and integrate web analytic to website'
+            'name' : 'MongoDB for Java Developers',
+            'url' : 'https://s3.amazonaws.com/edu-cert.10gen.com/downloads/e38c18b5a5a1464296c90bde690ea482/Certificate.pdf'
         },
         {
-            dateTime: 'April 2009 - January 2011',
-            company: 'Freelance Programmer',
-            position: 'Freelance Programmer',
-            detail: 'Develop and maintain web application for clients'
+            'name' : 'MongoDB for Node.js Developers',
+            'url' : 'https://s3.amazonaws.com/edu-cert.10gen.com/downloads/02f3615ecb0e4e8cb253c402b21455a5/Certificate.pdf'
+        },
+        {
+            'name' : 'ScrumMaster',
+            'url' : 'https://drive.google.com/a/abctech-thailand.com/file/d/0Bx9N7iLqX9WTb3RCMmdtVkZmNm8/view'
         }
     ];
 });
