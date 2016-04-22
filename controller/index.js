@@ -51,7 +51,8 @@ app.controller('ResumeController', function () {
             skills: [
                 'Agile/Scrum',
                 'Unit Test',
-                'REST & SOAP service'
+                'REST & SOAP service',
+                'AJAX'
             ]
         }
     ];
