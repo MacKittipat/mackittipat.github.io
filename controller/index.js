@@ -32,9 +32,9 @@ app.controller('ResumeController', function () {
             skills: [
                 'MySQL',
                 'MongoDB',
-                'Apache Hadoop',
+                'Elasticsearch',
                 'Apache Cassandra',
-                'Elasticsearch'
+                'Apache Hadoop'
             ]
         },
         {
