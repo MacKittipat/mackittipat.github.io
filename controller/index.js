@@ -2,6 +2,7 @@ var app = angular.module('myResume', []);
 app.controller('ResumeController', function () {
     this.name = 'Kittipat';
     this.lastName = 'Metachoochok';
+    this.job = 'Software Developer';
     this.contact = {
         email: 'mac.kittipat@gmail.com',
         mobilePhone: '084-776-2700'
