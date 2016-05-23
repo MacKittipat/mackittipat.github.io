@@ -75,7 +75,7 @@ app.controller('ResumeController', function () {
             'url' : 'https://drive.google.com/a/abctech-thailand.com/file/d/0Bx9N7iLqX9WTb3RCMmdtVkZmNm8/view'
         },
         {
-            'name' : 'Designing NoSQL Databases for Bussiness Application',
+            'name' : 'Designing NoSQL Databases for Business Application',
             'url' : 'https://drive.google.com/a/abctech-thailand.com/file/d/0Bx9N7iLqX9WTNVctRzhSRFJTWWc/view'
         }
     ];
