@@ -73,6 +73,10 @@ app.controller('ResumeController', function () {
         {
             'name' : 'ScrumMaster',
             'url' : 'https://drive.google.com/a/abctech-thailand.com/file/d/0Bx9N7iLqX9WTb3RCMmdtVkZmNm8/view'
+        },
+        {
+            'name' : 'Designing NoSQL Databases for Bussiness Application',
+            'url' : 'https://drive.google.com/a/abctech-thailand.com/file/d/0Bx9N7iLqX9WTNVctRzhSRFJTWWc/view'
         }
     ];
 });
